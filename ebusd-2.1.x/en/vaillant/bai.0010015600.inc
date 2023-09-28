@@ -6,7 +6,7 @@
 *ws,#service_NOT_YET_CONFIRMED,,,,,"B509","0E",,,,,,,,,
 *[SW>=413],scan,,,SW,,>=413,,,,,,,,,,
 # ##### Diagnose Ebene 1 #####,,,,,,,,,,,,,,,,
-r;wi,,PartloadHcKW,d.00 Heating part load,,,,"6C00",,,power,,,Heating part load,,,
+r1;wi,,PartloadHcKW,d.00 Heating part load,,,,"6C00",,,power,,,Heating part load,,,
 r;wi,,WPPostrunTime,d.01 central heating overrun time,,,,"6400",,,minutes0,,,water pump overrun time for heating mode,,,
 r;wi,,BlockTimeHcMax,d.02 Max blocking time CH,,,,"2100",,,minutes0,,,Maximum burner anti cycling period at 20°C flow temperature set point,,,
 r,,HwcTemp,d.03 Temp DHW,,,,"1600",,,tempsensor,,,Hot water flow temperature,,,
