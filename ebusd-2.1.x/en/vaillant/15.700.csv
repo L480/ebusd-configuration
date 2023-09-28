@@ -92,7 +92,7 @@ r;w,,Hc1ExcessTemp,ExcessTemp heating circuit 1,,,,0B00,,,calibrationv,,,excess 
 #r;w,,Hc1Unknown0c,(constant 65) temperature heating circuit 1,,,,0C00,,,tempv,,,unknown value for Hc1
 #r;w,,Hc1Unknown0d,(constant 65) temperature heating circuit 1,,,,0D00,,,tempv,,,unknown value for Hc1
 r;w,,Hc1AutoOffMode,AutoOffMode heating circuit 1,,,,0E00,,,offmode,,,operation of Hc1 during the lowering time; no influence if room temperature modulation is set to thermostat
-r4;w,,Hc1HeatCurve,HeatCurve heating circuit 1,,,,0F00,,,EXP,,,heating curve of Hc1
+r;w,,Hc1HeatCurve,HeatCurve heating circuit 1,,,,0F00,,,EXP,,,heating curve of Hc1
 r;w,,Hc1MaxFlowTempDesired,MaxFlowTempDesired heating circuit 1,,,,1000,,,tempv,,,maximum flow temperature setpoint (end emphasis) of Hc1
 #r;w,,Hc1Unknown11,(constant 20) temperature heating circuit 1,,,,1100,,,tempv,,,unknown value for Hc1
 r;w,,Hc1MinFlowTempDesired,MinFlowTempDesired heating circuit 1,,,,1200,,,tempv,,,minimum flow temperature setpoint (end emphasis) of Hc1
