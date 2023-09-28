@@ -40,7 +40,7 @@ r,,externalHwcSwitch,External HWC tank,,,,"0000",,,onoff,,,Demand external HWC t
 r,,WaterPressure,Water pressure,,,,"0200",,,presssensor,,,CH water pressure,,,
 r,,Flame,Flame,,,,"0500",,,UCH,240=off;15=on,,Flame,,,
 r,,ChangesDSN,Changes_DSN_DK,,,,"0C00",,,UCH,,,Numbers adjusting (storing) the DSN,,,
-r,,GasvalveUC,SD_Gasvalve_uC_DK,,,,"0D00",,,UCH,240=off;15=on,,Activation signal of the gasvalve (activated via micrcontroller),,,
+r1,,GasvalveUC,SD_Gasvalve_uC_DK,,,,"0D00",,,UCH,240=off;15=on,,Activation signal of the gasvalve (activated via micrcontroller),,,
 r,,VolatileLockout,SD_VolatileLockout_DK,,,,"1000",,,UCH,240=no;15=yes,,TRUE: STB errors are locking,,,
 r,,ModulationTempDesired,Modulationsetpoint_DK,,,,"2E00",,,SIN,10,%,Modulation set point,,,
 r,,FlameSensingASIC,SD_Flame_Sensing_ASIC,,,,"2F00",,,UIN,,,ioni/adc value from the flame control circuit,,,
