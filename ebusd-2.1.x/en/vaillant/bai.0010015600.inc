@@ -24,7 +24,7 @@ r,,DCRoomthermostat,d.16 Room thermostat 24 V,,,,"0E00",,,onoff,,,xternal contro
 r,,HwcDemand,d.22 DHW demand,,,,"5800",,,yesno,,,Domestic hot water demand,,,
 r;wi,,HeatingSwitch,d.23 Heating on/off switch,,,,"F203",,,onoff,,,Central heating on/off switch,,,
 #r,,StoragereleaseClock,d.25 DHW demand enabled,,,,"4704",,,yesno,,,hot water release (tank storage) via eBus Control,,,
-r,,PrimaryCircuitFlowrate,d.29 Primary circuit flow rate,,,,"FB00",,,uin100,,l/min,Primary circuit water flow rate,,,
+r1,,PrimaryCircuitFlowrate,d.29 Primary circuit flow rate,,,,"FB00",,,uin100,,l/min,Primary circuit water flow rate,,,
 r,,TargetFanSpeed,d.33 Target fan speed,,,,"2400",,,UIN,,1/min,Fan speed setpoint,,,
 r1,,FanSpeed,d.34 Current fan speed,,,,"8300",,,UIN,,1/min,Current fan speed,,,
 r,,PositionValveSet,d.35 Position TWV,,,,"5400",,,UCH,,,Position of diverter valve; 100 = DHW; 0 = heating; 40 = middle position,,,
