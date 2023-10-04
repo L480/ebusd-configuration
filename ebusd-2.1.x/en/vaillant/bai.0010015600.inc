@@ -19,7 +19,7 @@ r,,extWP,d.11 External heating pump,,,,"3F00",,,onoff,,,External central heating
 r,,Storageloadpump,d.12 storage load pump,,,,"9E00",,,percent0,,,Tank load pump demand,,,
 r,,CirPump,d.13 Circulation pump,,,,"7B00",,,onoff,,,Hot water circulation pump (via external module),,,
 r;wi,,PumpPowerDesired,d.14 Desired heating pump power,,,,A100,,,UCH,0=auto;1=53;2=60;3=70;4=85;5=100,%,PWM-Desired central heating pump power,,,
-r1,,PumpPower,d.15 Current heating pump power,,,,7300,,,UCH,,,Current central heating pump power,,,
+r,,PumpPower,d.15 Current heating pump power,,,,7300,,,UCH,,,Current central heating pump power,,,
 r,,DCRoomthermostat,d.16 Room thermostat 24 V,,,,"0E00",,,onoff,,,xternal controls heat demand (Clamp 3-4),,,
 r,,HwcDemand,d.22 DHW demand,,,,"5800",,,yesno,,,Domestic hot water demand,,,
 r;wi,,HeatingSwitch,d.23 Heating on/off switch,,,,"F203",,,onoff,,,Central heating on/off switch,,,
